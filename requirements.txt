@@ -1,0 +1,15 @@
+# Pre-requisites (non-Python dependencies)
+poppler-utils
+tesseract-ocr-eng
+tesseract-lang
+# Uncomment the line below if you're using Homebrew on macOS
+# tesseract-lang (assuming you're using Homebrew)
+
+# Python packages
+layoutparser
+torchvision
+detectron2 @ git+https://github.com/facebookresearch/detectron2.git@v0.5
+pillow==9.0.0
+Flask
+torch
+PyMuPDF
